@@ -4,7 +4,7 @@ from typing import Any, List, Sequence
 import dotbot
 
 
-class Apt(dotbot.Plugin):
+class Pacstall(dotbot.Plugin):
     def can_handle(self, directive: str) -> bool:
         return directive == "pacstall"
 
